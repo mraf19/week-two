@@ -4,73 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Latihan HTML
     </title>
 </head>
 <body>
-    <h1>My Portofolio</h1>
-    <hr>
-    <h3>Biografi</h3>
-    <p>Perkenalkan nama saya Muhammad Rafli, saat ini saya sedang belajar programming di Platform Eduwork.</p>
-    <h3>Skills</h3>
-    <ul>
-        <li>
-            HTML
-        </li>
-        <li>
-            CSS
-        </li>
-        <li>
-            JavaScript
-        </li>
-        <li>
-            PHP
-        </li>
-        <li>
-            MySQL
-        </li>
-    </ul>
-    <h3>Hobby</h3>
-    <ol>
-        <li>Membaca</li>
-        <li>Mendengarkan Musik</li>
-        <li>Bermain game</li>
-        <li>Travelling</li>
-    </ol>
-    <h3>Riwayat Pendidikan</h3>
-    <table border = "1px" cellpadding = 5 cellspacing = 0>
-        <thead>
-            <tr>
-                <th>Nama Sekolah</th>
-                <th>Tahun Lulus</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>SDN 07 Tangah Koto</td>
-                <td>2013</td>
-            </tr>
-            <tr>
-                <td>SMP Darunnajah 8</td>
-                <td>2016</td>
-            </tr>
-            <tr>
-                <td>SMAN 12 Tangerang Selatan</td>
-                <td>2019</td>
-            </tr>
-        </tbody>        
-    </table>
-    <h3>Hubungi Saya</h3>
-        <form action="" method="POST">
-            <label for="email">Email :</label>
-            <input type="text" id="email" name="email"><br>
-            <label for="pesan">Pesan :</label>
-            <textarea name="pesam" id="pesan" cols="22" rows="5" placeholder="Tulis pesan disini"></textarea>
-            <button type="submit">Send</button>
-            <button type="reset">Reset</button>
-        </form>
-        <hr>
-        <footer>Copyright 2021 - All Right Reserves</footer>
+    <div class="header">
+        <h1>My Portofolio</h1>
+        <div class="profile"></div>
+        <h3>About Me</h3>
+        <p>Perkenalkan nama saya Muhammad Rafli, saat ini saya sedang belajar programming di Platform Eduwork.</p>
+    </div>
+    <div class="main">
+        <div class="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+            </ul>
+        </div>
+        <div class="hobbies">
+            <h3>Hobby</h3>
+            <ol >
+                <li>Membaca</li>
+                <li>Mendengarkan Musik</li>
+                <li>Bermain game</li>
+                <li>Travelling</li>
+            </ol>
+        </div>
+    </div>
+    <div class="education">
+        <h3>Riwayat Pendidikan</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama Sekolah</th>
+                    <th>Tahun Lulus</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SDN 07 Tangah Koto</td>
+                    <td>2013</td>
+                </tr>
+                <tr>
+                    <td>SMP Darunnajah 8</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>SMAN 12 Tangerang Selatan</td>
+                    <td>2019</td>
+                </tr>
+            </tbody>        
+        </table>
+    </div>
+    <div class="contact">
+        <h3>Hubungi Saya</h3>
+            <form action="" method="POST">
+                <ul>
+                    <li><label for="email">Email :</label></li>
+                    <li><input type="text" id="email" name="email"><br></li>
+                    <li><label for="pesan">Pesan :</label></li>
+                    <li><textarea name="pesam" id="pesan" cols="22" rows="5" placeholder="Tulis pesan disini"></textarea></li>
+                    <li><button type="submit">Send</button></li>
+                </ul>     
+            </form>
+    </div>
+    <footer>Copyright 2021 - All Right Reserves</footer>
 
 </body>
 </html>

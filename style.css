@@ -1,0 +1,112 @@
+body {
+    background-color: #dbd6d6; 
+    color: #333;
+    margin :0;
+    padding:0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 18px;
+}
+
+.header, 
+.education {
+    margin: 70px auto ;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5em;
+}
+
+.header .profile {
+    margin: 70px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(profile.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header h3 {
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+.header p {
+    margin: auto;
+    max-width: 500px;
+    min-width: 200px;
+    margin-top: 10px;
+}
+
+.main {
+    margin: 70px 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    place-content: center;
+}
+
+.main .skills,
+.main .hobbies {
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+
+ul,
+ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.education table{
+    margin:  0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+.education th {
+    border-bottom: 1px solid black;
+    padding: 15px;    
+
+
+}
+.education td {
+    padding: 15px 20px;
+    text-align: start;    
+}
+
+.contact {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.contact form ul {
+    margin: auto;
+    list-style: none;
+    text-align: start;
+}
+
+.contact input {
+    width: 300px;
+}
+
+.contact textarea {
+    width: 300px;
+    height: 200px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #dbd6d6;
+    padding: 15px;
+
+}
